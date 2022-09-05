@@ -1,0 +1,29 @@
+{
+  "name": "cypress-intermediate-course",
+  "version": "1.0.0",
+  "description": "An [intermediate course of test automation with Cypress](https://www.udemy.com/course/test-automation-with-cypress-intermediate/) from the Talking About Testing school.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:open:mobile": "cypress open --config viewportWidth=370 viewportHeight=660",
+    "test": "cypress run",
+    "test:mobile": "cypress run --config viewportWidth=370 viewportHeight=660"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/wlsf82/cypress-intermediate-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/wlsf82/cypress-intermediate-course/issues"
+  },
+  "homepage": "https://gitlab.com/wlsf82/cypress-intermediate-course#readme",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
